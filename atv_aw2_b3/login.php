@@ -1,7 +1,7 @@
 <?php 
 $servername = "localhost";
 $username = "root";
-$pass = "asenhaeessa123";
+$pass = "";
 $dbname = "db_atv3";
 
 session_start();
