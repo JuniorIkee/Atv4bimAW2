@@ -1,0 +1,15 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "asenhaeessa123";
+$dbname = "db_atv3";
+
+try {
+  $conn = new PDO("mysql:host=$servername;dbname=$myDB", $username, $password);
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch(PDOException $e) {
+  echo "Connection failed: " . $e->getMessage();
+}
+
+$conn = null;
+?>
