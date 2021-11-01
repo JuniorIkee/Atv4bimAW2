@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "asenhaeessa123";
+$password = "";
 $dbname = "db_atv3";
 
 $name = $_POST['name'];
